@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.sustainability-score-container {
+  text-align: center;
+  width: 300px;
+}
+
+.score-bar {
+  width: 100%;
+  height: 30px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 100%;
+  width: 0;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.gettingthere {
+  height: 100%;
+  width: 0;
+  background-color: #e8e821;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.notgood {
+  height: 100%;
+  width: 0;
+  background-color: #ea0c0c;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+#score-label {
+  font-size: 18px;
+  color: #333;
+}
