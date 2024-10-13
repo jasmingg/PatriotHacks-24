@@ -1,0 +1,69 @@
+<!-- disaster-relief.html -->
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Disaster Relief Resources</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>Disaster Relief Resources</h1>
+            <p>Your guide to nearby evacuation centers and temporary housing during emergencies.</p>
+        </div>
+    </header>
+
+    <!-- Evacuation Centers Map Section -->
+    <section id="map-section">
+        <h2>Evacuation Centers Locator</h2>
+        <div class="search-container">
+            <input type="text" id="location" placeholder="Enter your location (ZIP Code)" />
+            <button id="search-button" class="btn-primary">Find Centers</button>
+        </div>
+        <div id="map" style="height: 500px;"></div>
+    </section>
+
+    <!-- Safety Tips Section -->
+    <section id="safety-tips-section">
+        <h2>Safety Tips During Emergencies</h2>
+        <ul class="safety-tips">
+            <li><span class="icon-alert"></span> Stay informed about evacuation orders.</li>
+            <li><span class="icon-kit"></span> Prepare an emergency kit with essential supplies.</li>
+            <li><span class="icon-map"></span> Plan your evacuation route ahead of time.</li>
+            <li><span class="icon-neighbors"></span> Check on neighbors and assist those in need.</li>
+            <li><span class="icon-news"></span> Stay connected to local news for updates.</li>
+        </ul>
+    </section>
+
+    <!-- Emergency Contacts Section -->
+    <section id="emergency-contacts-section">
+        <h2>Emergency Contacts</h2>
+        <ul class="emergency-contacts">
+            <li><span class="icon-phone"></span> Local Emergency Services: <strong>911</strong></li>
+            <li><span class="icon-hotline"></span> Disaster Relief Hotline: <strong>1-800-123-4567</strong></li>
+            <li><span class="icon-redcross"></span> Red Cross: <strong>1-800-RED-CROSS</strong></li>
+            <li><a href="https://www.ready.gov/">Ready.gov</a> - Emergency Preparedness Resources</li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Eco Housing Initiative</p>
+            <p><a href="https://www.epa.gov/sustainability">Learn about sustainability</a></p>
+            <p><a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html">Disaster recovery resources</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript to Handle Map, Interactivity, and Data Fetching -->
+    <script src="disaster-relief.js"></script>
+    
+</body>
+</html>
+

@@ -1,0 +1,91 @@
+[
+    {
+        "name": "Arlington VA Corps",
+        "latitude": 38.86669185025661,
+        "longitude": -77.0953379468508, 
+        "sustainability_score": 85,
+        "address": "518 S Glebe Rd, Arlington, 22204",
+        "phone": "(703)979-3380",
+        "isGreen": true
+    },
+    {
+        "name": "PMC Divisional Headquarters",
+        "latitude": 38.80691170576369,
+        "longitude": -77.05669265743006, 
+        "address": "1555 King st, Alexandria, 22314",
+        "phone": "(202)756-2600",
+        "isGreen": true
+    },
+
+    {
+        "name": "Railton Residence",
+        "latitude": 38.82714109282077,
+        "longitude":-77.05885819122834,
+        "address": "1804 Mt Vernon Ave, Alexandria, 22301",
+        "phone": "(170)383-62427",
+        "isGreen": true
+    },
+
+    {
+        "name": "National Capital Area Command",
+        "latitude": 38.86311160551231,
+        "longitude": -76.99121750452368,
+        "address": "2300 Martin Luther King Jr Ave SE, Washington, DC 20020",
+        "phone": "(202)756-2600",
+        "isGreen": true
+    },
+
+    {
+        "name": "Fairfax County Corps",
+        "latitude": 38.823004710591256,
+        "longitude": -77.31679380452607,
+        "address": "4915 Ox Rd, Fairfax, VA 22030",
+        "phone": "(170)338-58700",
+        "isGreen": true
+    },
+
+    {
+        "name": "Alexandria Korean-Landmark Corps",
+        "latitude": 38.82295467431714,
+        "longitude": -77.31656664870776,
+        "address": "4915 Ox Rd, Fairfax, VA 22030",
+        "phone": "(703)537-0033",
+        "isGreen": true
+    },
+
+    {
+        "name": "Prince William Service Center",
+        "latitude": 38.724844058086376,
+        "longitude": -77.3542290734987,
+        "address": "4799 Wermuth Way, Woodbridge, 22192",
+        "phone": "(703)580-8991",
+        "isGreen": true
+    },
+
+    {
+        "name": "FEMA Disaster Recovery Center",
+        "latitude": 36.64135848481845,
+        "longitude": -81.7990457264591,
+        "address": "736 N Beaver Dam Ave, Damascus, 24236",
+        "phone": "N/A",
+        "isGreen": true
+    },
+
+    {
+        "name": "FEMA Disaster Recovery Center",
+        "latitude": 36.62033623720607,
+        "longitude": -81.14305703348928,
+        "address": "578 E Main St, Independence, 24348",
+        "phone": "N/A",
+        "isGreen": true
+    },
+
+    {
+        "name": "FEMA Disaster Recovery Center",
+        "latitude": 37.11592135617761,
+        "longitude": -81.51987433346135,
+        "address": "197 Main St, Tazewell, VA 24651",
+        "phone": "N/A",
+        "isGreen": true
+    }
+]
